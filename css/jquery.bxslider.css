@@ -1,0 +1,271 @@
+/**
+ * BxSlider v4.0 - Fully loaded, responsive content slider
+ * http://bxslider.com
+ *
+ * Written by: Steven Wanderski, 2012
+ * http://stevenwanderski.com
+ * (while drinking Belgian ales and listening to jazz)
+ *
+ * CEO and founder of bxCreative, LTD
+ * http://bxcreative.com
+ */
+
+
+/** RESET AND LAYOUT
+===================================*/
+ul.bxslider{
+margin:0;
+}
+
+.bx-wrapper {
+	position: relative;
+	padding: 0;
+	*zoom: 1;
+	background:url(../img/test-bg.png);
+	text-align:center;
+	width:100%;
+	margin-top:20px;
+	float:left;
+}
+
+.bx-wrapper img {
+	width: 100%;
+	display: block;
+}
+
+
+.bx-wrapper li p{
+padding:30px 20px 20px 20px;
+font-size:25px;
+font-style:italic;
+line-height:35px;
+text-align:center;
+}
+
+
+.bx-wrapper li a{
+float:left;
+margin-top:30px;
+margin-left:20px;
+width:100px;
+color:#383838;
+font-size:16px;
+font-weight:bold;
+margin-bottom:20px;
+}
+
+.bx-wrapper li a span{
+float:left;
+color:#c55946;
+font-size:12px;
+margin-left:10px;
+}
+
+
+/** THEME
+===================================*/
+
+.bx-wrapper .bx-viewport {
+}
+
+.bx-wrapper .bx-pager,
+.bx-wrapper .bx-controls-auto {
+	position: absolute;
+	bottom: -30px;
+	width: 100%;
+}
+
+/* LOADER */
+
+.bx-wrapper .bx-loading {
+	min-height: 50px;
+	background: #fff;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2000;
+}
+
+/* PAGER */
+
+.bx-wrapper .bx-pager {
+	text-align: center;
+	font-size: .85em;
+	font-family: Arial;
+	font-weight: bold;
+	color: #666;
+	padding-top: 20px;
+	width:100%;
+}
+
+#bx-pager {
+text-align:center;
+width:100%;
+border-top:2px solid #c55946;
+padding-top:10px;
+position:relative;
+margin-top:15px;
+}
+
+#bx-pager a.active:before {
+  content: "";
+  width:0;
+  height:0;
+  border-top:8px solid #c55946;
+  border-left:8px solid transparent;
+  border-right:8px solid transparent;
+  left: 50%;
+  margin-left: -10px;
+  position: absolute;
+  top: -26px;
+}
+
+
+
+#bx-pager img{
+padding:3px;
+background:#fff;
+}
+
+#bx-pager a{
+margin-right:5px;
+position:relative;
+}
+
+#bx-pager a:first-child{
+margin-left:5px;
+}
+
+
+
+.bx-wrapper .bx-pager .bx-pager-item,
+.bx-wrapper .bx-controls-auto .bx-controls-auto-item {
+	display: inline-block;
+	*zoom: 1;
+	*display: inline;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a {
+	background: #666;
+	text-indent: -9999px;
+	display: block;
+	width: 10px;
+	height: 10px;
+	margin: 0 5px;
+	outline: 0;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active {
+	background: #000;
+}
+
+/* DIRECTION CONTROLS (NEXT / PREV) */
+
+.bx-wrapper .bx-prev {
+	left: 10px;
+	background:#d0d0d0 url(../img/left-arrow.png) no-repeat center center;
+}
+
+.bx-wrapper .bx-next {
+	right: 10px;
+	background:#d0d0d0 url(../img/right-arrow.png) no-repeat center center;
+}
+
+.bx-wrapper .bx-prev:hover {
+background-color:#bc533f;
+}
+
+.bx-wrapper .bx-next:hover {
+background-color:#bc533f;
+}
+
+.bx-wrapper .bx-controls-direction a {
+	position: absolute;
+	top:-40px;
+	margin-top: -16px;
+	outline: 0;
+	z-index: 9999;
+	width:21px;
+	text-indent:-9999px;
+	border-radius:50%;
+	-webkit-transition: all 0.5s ease-out;
+-moz-transition: all 0.5s ease-out;
+ -o-transition: all 0.5s ease-out;
+-ms-transition: all 0.5s ease-out;
+	transition: all 0.5s ease-out;
+}
+
+.bx-wrapper .bx-controls-direction a.disabled {
+	display: none;
+}
+
+/* AUTO CONTROLS (START / STOP) */
+
+.bx-wrapper .bx-controls-auto {
+	text-align: center;
+}
+
+.bx-wrapper .bx-controls-auto .bx-start {
+	display: block;
+	text-indent: -9999px;
+	width: 10px;
+	height: 11px;
+	outline: 0;
+	margin: 0 3px;
+}
+
+.bx-wrapper .bx-controls-auto .bx-start:hover,
+.bx-wrapper .bx-controls-auto .bx-start.active {
+	background-position: -86px 0;
+}
+
+.bx-wrapper .bx-controls-auto .bx-stop {
+	display: block;
+	text-indent: -9999px;
+	width: 9px;
+	height: 11px;
+	outline: 0;
+	margin: 0 3px;
+}
+
+.bx-wrapper .bx-controls-auto .bx-stop:hover,
+.bx-wrapper .bx-controls-auto .bx-stop.active {
+	background-position: -86px -33px;
+}
+
+/* PAGER WITH AUTO-CONTROLS HYBRID LAYOUT */
+
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
+	text-align: left;
+	width: 80%;
+}
+
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {
+	right: 0;
+	width: 35px;
+}
+
+/* IMAGE CAPTIONS */
+
+.bx-wrapper .bx-caption {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: #666\9;
+	background: rgba(80, 80, 80, 0.75);
+	width: 100%;
+}
+
+.bx-wrapper .bx-caption span {
+	color: #fff;
+	font-family: Arial;
+	display: block;
+	font-size: .85em;
+	padding: 10px;
+}

@@ -1,0 +1,9 @@
+/* .sf-menu li a:hover:before{content: '';position: absolute;width: 0;height: 0;left:-8px;top: 81%;border-width:5px 4px;border-style: solid;border-color: #7e3a2e #7e3a2e transparent transparent;z-index:2;}.sf-menu li a:hover:after{content:'';position: absolute;width: 0;height: 0;right:-9px;top: 81%;border-top:10px solid #7e3a2e;border-right:9px solid transparent;z-index:1;}
+
+.sf-menu li.sfHover a:hover:before{
+display:none;
+}
+
+.sf-menu li.sfHover a:hover:after{
+display:none;
+} */

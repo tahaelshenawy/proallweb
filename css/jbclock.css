@@ -1,0 +1,135 @@
+body {
+	margin:0px;
+	padding:0px;
+	background-color:#00a0db;
+}
+
+.wrapper {
+	width:960px;
+	margin:0 auto 30px auto;
+}
+
+h1 {
+    color:#FFF;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size:30px;
+    text-align: center;
+    margin-top:200px;
+    font-weight: normal;
+    text-shadow: 1px 1px 1px #5295ac;
+       
+}
+h4 {
+    color:#fff;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size:18px;
+    text-align: center;
+    margin-top:10px;
+    font-weight: normal;
+	text-shadow: 1px 1px 1px #5295ac;
+}
+
+.clock {
+    width:535px;
+    margin:0 auto;
+}
+
+.clock_days {
+    float:left;
+    width:122px;
+    margin-right: 15px;
+    position: relative;
+}
+.clock_hours {
+    float:left;
+    width:122px;
+    margin-right: 15px;
+    position: relative;
+}
+.clock_minutes {
+    float:left;
+    width:122px;
+    margin-right: 15px;
+    position: relative;
+}
+.clock_seconds {
+    float:left;
+    width:122px;
+    position: relative;
+}
+
+.bgLayer {
+    background-image:url("../images/clock_bg.png");
+    width:122px;
+    height:122px;
+    background-repeat: no-repeat;
+}
+
+.val {
+    margin:0;
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    line-height: 122px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    color:#FFF;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #5295ac;
+    text-align: center;
+}
+
+.type_days,
+.type_hours,
+.type_minutes,
+.type_seconds {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color:#FFF;
+    background:#64b5d1;
+    padding:5px;
+    text-align: center;
+    margin:0 auto;
+    margin-top:10px;
+    display: table;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #5295ac;
+}
+
+.clear{
+clear:both;
+}
+
+
+#navigation {
+    margin: 80px auto 100px;
+    width: 230px;
+}
+
+
+#navigation ul{
+background:#00506d;
+border-radius:5px;
+padding:12px 30px 12px 10px ;
+margin-left:5%;
+}
+
+#navigation ul li {
+display:inline;
+
+}
+#navigation ul li a{
+color:#fff;
+font-size:13px;
+border-right:1px solid #fff;
+padding:0 20px;
+text-decoration:none;
+}
+#navigation ul li:last-child a{
+border-right:none;
+}
