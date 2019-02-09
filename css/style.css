@@ -1,6 +1,6 @@
 /*
 
-Theme name : HodHod Technology website consulting services Html5 Theme
+Theme name : pro webTechnology website consulting services Html5 Theme
 Description: "Premium Html5 theme " 
 Version :1.0
 
@@ -273,7 +273,7 @@ h2 {
 h3 {
   font-size: 24.5px;
     font-family: cursive;
-  text-align: -webkit-center;
+  text-align: -webkit-auto;
 }
 
 h4 {
@@ -811,6 +811,89 @@ color:#fff;
 	
 	
 }
+
+.fixcod-icon-wordpress{
+  background: transparent url(../images/wordpress-logo.png) no-repeat;
+  padding: 33px;
+  height: 22px;
+  top: 0;
+   /* margin-top: -75px; */
+  margin-left: 123px;
+	
+	
+}
+.fixcod-icon-magento{
+  background: transparent url(../images/Magento-ou-prestashop.gif) no-repeat;
+  padding: 33px;
+  height: 22px;
+  top: 0;
+   /* margin-top: -75px; */
+  
+	
+	
+}
+
+.fixcod-icon-drupal{
+  background: transparent url(../images/drupal.gif) no-repeat;
+  padding: 33px;
+  height: 22px;
+  top: 0;
+   /* margin-top: -75px; */
+  
+	 margin-left: 123px;
+	
+}
+
+
+ .showbox {
+    
+    background-color: #fff;
+    line-height: 60px;
+    text-align: center;
+   
+	
+	-webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    transition-duration: 1s;
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
+  }
+  .showbox.slideright:hover {
+    -webkit-transform: translate(3em,0);
+    -moz-transform: translate(3em,0);
+    -o-transform: translate(3em,0);
+    -ms-transform: translate(3em,0);
+    transform: translate(3em,0);
+  }
+
+/*
+img:hover {
+transform: rotate(90deg);
+-webkit-transform: rotate(90deg);
+-ms-transform: rotate(90deg);
+}
+
+*/
+
+
+
+
+.fixcod-icon-webdesin{
+  /* background: transparent url(../images/webdesin.gif) no-repeat;
+  padding: 33px;
+  height: 22px;
+  top: 0;
+   margin-top: -75px; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+	
+}
+
 .Seo-icon-hodtec{
 	
   background: transparent url(../images/Seo-icon-hodtec.gif) no-repeat;
@@ -2128,9 +2211,10 @@ margin-right: 33px;
   margin-bottom: 4px;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
-  color: #eeeeee;
-  font-size: 15px;
+  color: #131212;
+  font-size: 18px;
   text-decoration: none;
+  font-style: italic bold;
 }
 #cssmenu ul li:first-child,
 #cssmenu ul li:first-child > a {
@@ -2156,4 +2240,286 @@ margin-right: 33px;
     margin-right: 247px;
     margin-top: -159px;
 
+}
+
+
+
+.bubbles-container {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 100%;
+    max-width: 15rem;
+    transform: translateX(-50%);
+	opacity: 0.75;
+	overflow: visible;
+}
+
+.bubbles {
+	width: 100%;
+	height: auto;
+	
+	circle {
+		stroke: white;
+		fill: none;
+	}
+	
+	> g > g:nth-of-type(3n) circle {
+		stroke: #87f5fb;
+	}
+	
+	> g > g:nth-of-type(4n) circle {
+		stroke: #8be8cb;
+	}
+	
+}
+
+.bubbles-large {
+	overflow: visible;
+
+	> g {
+		transform: translateY(2048px);
+		opacity: 0;
+		will-change: transform, opacity;
+	}
+
+	g:nth-of-type(1) {
+		animation: up 6.5s infinite;
+		
+		g {
+			transform: translateX(350px);
+		}
+
+		circle {
+			animation: wobble 3s infinite ease-in-out;
+		}
+
+	}
+	
+	g:nth-of-type(2) {
+		animation: up 5.25s 250ms infinite;
+		
+		g {
+			transform: translateX(450px);
+		}
+
+		circle {
+			animation: wobble 3s infinite ease-in-out;
+		}
+
+	}
+	
+	g:nth-of-type(3) {
+		animation: up 6s 750ms infinite;
+		
+		g {
+			transform: translateX(700px);
+		}
+
+		circle {
+			animation: wobble 3s infinite ease-in-out;
+		}
+
+	}
+	
+	g:nth-of-type(4) {
+		animation: up 5.5s 1.5s infinite;
+		
+		g {
+			transform: translateX(500px);
+		}
+
+		circle {
+			animation: wobble 3s infinite ease-in-out;
+		}
+
+	}
+	
+	g:nth-of-type(5) {
+		animation: up 6.5s 4s infinite;
+		
+		g {
+			transform: translateX(675px);
+		}
+
+		circle {
+			animation: wobble 3s infinite ease-in-out;
+		}
+
+	}
+
+}
+
+.bubbles-small {
+	overflow: visible;
+
+	> g {
+		transform: translateY(2048px);
+		opacity: 0;
+		will-change: transform, opacity;
+	}
+
+	g circle {
+		transform: scale(0);
+	}
+
+	g:nth-of-type(1) {
+		animation: up 5.25s infinite;
+		
+		g {
+			transform: translateX(350px);
+		}
+
+		circle {
+			animation: wobble 3s infinite ease-in-out;
+		}
+
+	}
+
+	g:nth-of-type(2) {
+		animation: up 5.75s infinite;
+		
+		g {
+			transform: translateX(750px);
+		}
+
+		circle {
+			animation: wobble 3s infinite ease-in-out;
+		}
+
+	}
+
+	g:nth-of-type(3) {
+		animation: up 5.25s 250ms infinite;
+		
+		g {
+			transform: translateX(350px);
+		}
+
+		circle {
+			animation: wobble 3s 250ms infinite ease-in-out;
+		}
+
+	}
+
+	g:nth-of-type(4) {
+		animation: up 5.75s 325ms infinite;
+		
+		g {
+			transform: translateX(180px);
+		}
+
+		circle {
+			animation: wobble 3s 325ms infinite ease-in-out;
+		}
+
+	}
+
+	g:nth-of-type(5) {
+		animation: up 6s 125ms infinite;
+		
+		g {
+			transform: translateX(350px);
+		}
+
+		circle {
+			animation: wobble 3s 250ms infinite ease-in-out;
+		}
+
+	}
+
+	g:nth-of-type(6) {
+		animation: up 5.13s 250ms infinite;
+		
+		g {
+			transform: translateX(650px);
+		}
+
+		circle {
+			animation: wobble 3s 125ms infinite ease-in-out;
+		}
+
+	}
+
+	g:nth-of-type(7) {
+		animation: up 6.25s 350ms infinite;
+		
+		g {
+			transform: translateX(480px);
+		}
+
+		circle {
+			animation: wobble 3s 325ms infinite ease-in-out;
+		}
+
+	}
+	
+	g:nth-of-type(8) {
+		animation: up 7s 200ms infinite;
+		
+		g {
+			transform: translateX(330px);
+		}
+
+		circle {
+			animation: wobble 3s 325ms infinite ease-in-out;
+		}
+
+	}
+
+	g:nth-of-type(9) {
+		animation: up 6.25s 233ms infinite;
+		
+		g {
+			transform: translateX(230px);
+		}
+
+		circle {
+			animation: wobble 3s 275ms infinite ease-in-out;
+		}
+
+	}
+	
+	g:nth-of-type(10) {
+		animation: up 6s 900ms infinite;
+		
+		g {
+			transform: translateX(730px);
+		}
+
+		circle {
+			animation: wobble 2s 905ms infinite ease-in-out;
+		}
+
+	}
+	
+}
+
+@keyframes wobble {
+	
+	33% {
+		transform: translateX(-50px);
+	}
+	
+	66% {
+		transform: translateX(50px);
+	}
+	
+}
+
+@keyframes up {
+
+	0% {
+		opacity: 0;
+	}
+	
+	10%, 90% {
+		opacity: 1;
+	}
+	
+	100% {
+		opacity: 0;
+		transform: translateY(-1024px);
+	}
+	
 }
