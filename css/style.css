@@ -1,0 +1,861 @@
+/*   ######################################
+
+       $$$$$$$$$$$$$$$$  this code is written by taha elshenawy  $$$$$$$$$$$$$$$
+All Copyrights goes to taha elshenawy 2016
+#############################################  */
+
+
+body{
+
+font: 15px/1.5 Arial,Helvetica,sans-serif;
+padding: 0;
+margin: 0;
+background: url(../img/hp-section-bg-triangles2.png) no-repeat left top !important;
+background-size: cover !important;
+
+}
+
+.container{
+width: 80%;
+margin:auto;
+overflow: hidden;
+
+}
+
+header{
+  
+  background: transparent url(../img/menu-back.jpg) repeat 0 0;
+  color: #ffffff;
+  padding-top: 12px;
+  min-height: 70px;
+  border-bottom: #4c74b9 7px solid;
+  border-top: #e8ecf3 7px solid;   
+
+}
+
+#taha img {
+
+  position: absolute;
+    top: 12px;
+}
+
+.button_1{
+
+height: 38px;
+background: #142034;
+border: 0;
+padding-left: 20px;
+padding-right: 20px;
+color: #ffffff;
+
+}
+
+#callus{
+
+  padding: 15px;
+  color: #ffffff;
+  background: #3B5998;
+  margin-top: -19px;
+}
+
+#callus h2 {
+
+  float: right;
+}
+
+#callus form{
+
+  float: left;
+  margin-top: 15px;
+}
+
+#callus input[type="email"]{
+
+  padding: 4px;
+  height: 25px;
+  width: 250px;
+}
+
+/*   ######################################
+
+       $$$$$$$$$$$$$$$$     Menu  $$$$$$$$$$$$$$$
+
+#############################################  */
+
+ #cssmenu,
+#cssmenu ul,
+#cssmenu ul li,
+#cssmenu ul li a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  line-height: 1;
+
+  position: relative;
+  font-family: Capriola, Helvetica, sans-serif;
+}
+#cssmenu {
+  width: auto;
+  
+  padding-bottom: 4px;
+}
+
+#cssmenu ul li {
+  float: right;
+  margin-right: 4px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  z-index: 5;
+} 
+#cssmenu ul li a {
+  padding: 24px 30px 20px 7px;
+  margin-bottom: 4px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  color: #ffffff;
+  font-size: 18px;
+  text-decoration: none;
+  font-style: italic bold;
+}
+#cssmenu ul li:first-child,
+#cssmenu ul li:first-child > a {
+  border-bottom-left-radius: 3px;
+}
+#cssmenu ul li:hover,
+#cssmenu ul li.active {
+  background: #0f71ba;
+  background: -moz-linear-gradient(top, #3fa4f0 0%, #0f71ba 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3fa4f0), color-stop(100%, #0f71ba));
+  background: -webkit-linear-gradient(top, #3fa4f0 0%, #0f71ba 100%);
+  background: -o-linear-gradient(top, #3fa4f0 0%, #0f71ba 100%);
+  background: -ms-linear-gradient(top, #3fa4f0 0%, #0f71ba 100%);
+  background: linear-gradient(to bottom, #3fa4f0 0%, #0f71ba 100%);
+}
+#cssmenu ul li a:hover,
+#cssmenu ul li.active > a {
+  background: url('images/bg.png');
+  color: #ffffff;
+}
+/*   ######################################
+
+       $$$$$$$$$$$$$$$$     BOxes  $$$$$$$$$$$$$$$
+
+#############################################  */
+
+#showcase{
+
+ /*background: url('images/bg.png') repeat-y; */
+
+
+ margin: 0;
+
+    background-image: url(../img/Untitled-4.jpg);
+    background-size: cover;
+    background-position: center top;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    visibility: inherit;
+    z-index: 20;
+    text-align: center;
+    margin-top: -48px;
+
+}
+
+#showcase img{
+
+ 
+  opacity: 0.5;
+}
+
+#showcase h2{
+
+/* margin-top: 100px; */
+font-size: 55px;
+margin-bottom: 10px;
+color: #4292d8;
+    /* text-shadow: #b1b9b9 5px 0 3px; */
+    text-shadow: 0.03em 0.03em 0 hsla(230,40%,50%,1);
+
+}
+
+#showcase h4{
+
+  font-size: 20px;
+  color: #f52727;
+  text-shadow: #ff7b22 -2px 0 11px;
+}
+#showcase p{
+
+  font-size: 20px;
+  color: #26acef;
+    text-shadow: #a9c780 -2px 0 11px;
+}
+/*   ######################################
+
+       $$$$$$$$$$$$$$$$     Boxs  $$$$$$$$$$$$$$$
+
+#############################################  */
+
+
+#boxes_1{
+
+
+  margin-top: 20px;
+  border-bottom: #848586 2px solid;
+  /*
+  background-image: url(../img/hp-section-bg-triangles2.png);
+  border-radius: 30%;
+  */
+}
+
+#boxes_1 .box{
+float: left;
+text-align: center;
+width: 30%;
+padding: 10px;
+
+
+}
+#boxes_1:hover {
+  text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  transition: all 0.4s ease 0s;
+  }
+
+
+
+#boxes_1 .box img{
+  transition: 1s ease;
+  width: 150px;
+  }
+  
+  #boxes_1 .box img:hover{
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  transition: 1s ease;
+  }
+
+
+#boxes_1 h2{
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 10px;
+  color: #234a7b;
+  text-shadow: #b1b9b9 3px 0 9px;
+} 
+
+
+#boxes_1 h2:hover {
+  text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  transition: all 0.4s ease 0s;
+  }
+
+ .box h4 {
+
+  font-size: large;
+ }
+ .box h5{
+   font-size: large;
+ }
+
+
+ #boxes_1 h3{
+
+
+ }
+
+/*   ######################################
+
+       $$$$$$$$$$$$$$$$     Social Icons  $$$$$$$$$$$$$$$
+
+#############################################  */
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 10px;
+   /* float: right; */
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+
+
+  footer{
+
+    background: transparent url(../img/footerdark.png) repeat 0 0;
+    padding: 0;
+   /* border-top: 1px solid #000; */
+    
+  }
+ 
+
+  #footer_box{
+
+
+    margin-top: 20px;
+    border-bottom: #a0d0f9 2px solid;
+    
+  }
+  
+  .box_footer{
+  float: right;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+  border-right: 1px solid #153fc1;
+  
+  
+  }
+  .box_footer:hover {
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+    }
+  
+  
+  
+    .box_footer img{
+    transition: 1s ease;
+    width: 150px;
+    }
+    
+    .box_footer img:hover{
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 1s ease;
+    }
+  
+  
+    .box_footer h2{
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 10px;
+    color: #234a7b;
+    text-shadow: #b1b9b9 5px 0 3px;
+  } 
+  
+  
+  #boxes_1 h2:hover {
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+    }
+  
+    #footer_copyright_1{
+      text-align: center;
+      font-size: 18px;
+    
+    }
+
+    .box_footer-img{
+      display: block;
+     
+      width: 9%;
+
+
+    }
+
+    .footer_list{
+
+      list-style: none;
+    font-size: 20px;
+    margin-top: -21px;
+    }
+
+    .footer_list ul li a  {
+
+      color: #ffffff;
+    }
+
+    a {
+      color: #fbf7f9;
+      text-decoration: none;
+    }
+    /************* -bottom Footer *******/
+
+
+.footer-bottom{
+  height:auto;
+  position:relative;
+  overflow:hidden;
+  bottom:0;
+  }
+  
+  .footer-bottom .link-list{
+  margin-top:11px;
+  float: right;
+  }
+  
+  
+  .bottom{
+  position:relative;
+  }
+  
+  .bottom-footer{
+  background:#00a0db;
+  float:left;
+  width:100%;
+  padding:0; 
+  z-index:7;
+  position:relative;
+  margin-top:-6px;
+  }
+  
+  .home9 .bottom-footer{
+  -bracket-:hack[;
+  margin-top:15%;
+   ];
+  }
+  
+  
+  .bottom-footer .link-list a{
+  color:#fff;
+  padding-right:10px;
+  margin-right:10px;
+  border-right:1px solid rgba(0,0,0,0.2);
+  }
+  
+  
+  .bottom-footer .row{
+  position:relative;
+  }
+  
+ .bottom-footer section.social{
+  position:absolute;
+  right:0;
+  top:-10px;
+  z-index:9;
+  }
+
+  .more_links{
+
+
+  }
+
+  .more_links a{
+    font-size: 19px;
+    color: #d61717;
+    text-decoration: none;
+
+
+  }
+
+  .box_footer h4{
+
+    color: white;
+    font-size: 23px;
+    text-align: -webkit-right;
+  }
+   
+
+  .rotate-scale-up{
+    position: relative;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 3em;
+    
+    overflow: hidden;
+    background: linear-gradient(90deg, #fbf7f9, #fff, #548cc3);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 8s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  }
+  
+  @keyframes animate {
+    0% {
+      background-position: -500%;
+    }
+    100% {
+      background-position: 500%;
+    }
+  }
+
+
+
+  svg {
+    display: block;
+    font: 6.5em  'Montserrat';
+    
+    width: 960px;
+    
+    
+    margin: 0 auto;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+	stroke: #3a84c1;
+	animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+	stroke: #175f90;
+	animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+	stroke: #00bd52;
+	animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+	stroke: #BD0034;
+	animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+	stroke: #efa20e;
+	animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+	100% {stroke-dashoffset: -35%;}
+}
+
+
+/* JUMP */
+h1 {
+  cursor: default;
+ /* position: absolute; */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+
+h1 span {
+  position: relative;
+  top: 20px;
+  display: inline-block;
+  -webkit-animation: bounce 0.3s ease infinite alternate;
+  font-size: 93px;
+  color: #fff;
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc,
+    0 5px 0 #ccc, 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent,
+    0 9px 0 transparent, 0 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+h1 span:nth-child(2) {
+  -webkit-animation-delay: 0.1s;
+}
+
+h1 span:nth-child(3) {
+  -webkit-animation-delay: 0.2s;
+}
+
+h1 span:nth-child(4) {
+  -webkit-animation-delay: 0.3s;
+}
+
+h1 span:nth-child(5) {
+  -webkit-animation-delay: 0.4s;
+}
+
+h1 span:nth-child(6) {
+  -webkit-animation-delay: 0.5s;
+}
+
+h1 span:nth-child(7) {
+  -webkit-animation-delay: 0.6s;
+}
+
+h1 span:nth-child(8) {
+  -webkit-animation-delay: 0.2s;
+}
+
+h1 span:nth-child(9) {
+  -webkit-animation-delay: 0.3s;
+}
+
+h1 span:nth-child(10) {
+  -webkit-animation-delay: 0.4s;
+}
+
+h1 span:nth-child(11) {
+  -webkit-animation-delay: 0.5s;
+}
+
+h1 span:nth-child(12) {
+  -webkit-animation-delay: 0.6s;
+}
+
+h1 span:nth-child(13) {
+  -webkit-animation-delay: 0.7s;
+}
+
+h1 span:nth-child(14) {
+  -webkit-animation-delay: 0.8s;
+}
+
+/* ANIMATION */
+@-webkit-keyframes bounce {
+  100% {
+    top: -20px;
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc,
+      0 5px 0 #ccc, 0 6px 0 #ccc, 0 7px 0 #ccc, 0 8px 0 #ccc, 0 9px 0 #ccc,
+      0 50px 25px rgba(0, 0, 0, 0.2);
+  }
+}
+
+
+.copywrite{
+
+  color: white;
+  font-size: medium;
+
+}
+
+.copywrite a{
+
+  color: #1fd637;
+  text-decoration: none;
+
+}
+
+
+.paypal{
+
+  float: right;
+  margin-top: -86px;
+}
+
+.contect{
+
+  text-align: center;
+
+}
+
+
+#name{
+
+  text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  transition: all 0.4s ease 0s;
+  border-radius: 9%;
+    width: 250px;
+    height: 37px;
+    text-align: -webkit-match-parent;
+
+}
+
+#message{
+
+  text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  transition: all 0.4s ease 0s;
+  border-radius: 3%;
+  width: 400px;
+  height: 300px;
+  text-align: -webkit-match-parent;
+
+}
+#email{
+
+  text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  transition: all 0.4s ease 0s;
+  border-radius: 9%;
+  width: 250px;
+  height: 37px;
+  text-align: -webkit-match-parent;
+
+}
+
+.desc{
+
+  padding-right: 49px;
+  float: right;
+  text-align: center;
+}
+
+.desc a{
+
+  color: #ec0e7d;
+  text-decoration: none;
+
+
+}
+.desc-taha{
+
+  width: 64%;
+}
+
+
+label[for=name]
+{
+  font-size: x-large;
+}
+
+
+label[for=message]
+{
+  font-size: x-large;
+}
+
+
+label[for=email]
+{
+  font-size: x-large;
+}
+
+
+.kongbot{
+  background-color: #bab200;
+  font-size: 20px;
+  padding: 10px 24px;
+  border-radius: 12px;
+  color: beige;
+  text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+}
+
+
+.taha_social-2{
+
+
+ float: right;
+}
+
+.facebook-taha{
+
+
+  float: right;
+}
+
+.who-we-are{
+
+text-align: center;
+
+}
+
+.por_web_list{
+  font-size: large;
+  display: inline-block;
+  margin: 20px;
+  width: 100px;
+  height: 100px;
+  border: 5px solid #ee3e80;
+  padding: 10px;
+  border-radius: 50px;
+  box-sizing: border-box;
+  padding-top: 28px;
+  text-align: -webkit-center;
+  text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+}
+
+.por_web_list-2{
+
+  text-align: -webkit-center;
+
+}
+.por_web_list-3{
+
+
+  font-size: large;
+  display: inline-block;
+  margin: 20px;
+  width: 100px;
+  height: 100px;
+  border: 5px solid #ee3e80;
+  padding: 10px;
+  border-radius: 50px;
+  box-sizing: border-box;
+  padding-top: 14px;
+  text-align: -webkit-center;
+  text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+}
+
+
+.taha-2{
+width: 300px;
+height: 150px;
+
+  float: left;
+  padding: 144px;
+  text-align:center;
+}
+
+.taha-2 img{
+
+width: 300px;
+height: 150px;
+
+}
+
+
+.our_project h2{
+
+
+  text-align: center;
+}
+
+.our_project h3{
+
+  text-align: center;
+}
+
+
+/*   ######################################
+
+       $$$$$$$$$$$$$$$$  This code is written by taha el shenawy  $$$$$$$$$$$$$$$
+All  Copyrights goes to taha elshenawy . 2016
+#############################################  */
