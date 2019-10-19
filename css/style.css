@@ -242,7 +242,7 @@ padding: 10px;
 
 #boxes_1 h2{
   text-align: center;
-  font-size: 26px;
+ /* font-size: 26px; */
   margin-bottom: 10px;
   color: #234a7b;
   text-shadow: #b1b9b9 3px 0 9px;
